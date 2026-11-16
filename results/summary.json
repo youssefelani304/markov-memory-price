@@ -1,0 +1,160 @@
+{
+  "parameters": {
+    "K": 3,
+    "q_prime": 0.4,
+    "decay": 0.7,
+    "beta": 1.0,
+    "gamma": 1.0,
+    "burn_in": 30,
+    "train": {
+      "agents": 10000,
+      "trials": 1000,
+      "seed": 1
+    },
+    "test": {
+      "agents": 2000,
+      "trials": 1000,
+      "seed": 2
+    },
+    "activation_bins": [
+      0.15,
+      0.4,
+      0.7,
+      1.0,
+      1.4
+    ],
+    "smoothing": 0.5
+  },
+  "oracle_loss": 0.9192880988121033,
+  "present_state_loss": 0.9965846589048868,
+  "rows": [
+    {
+      "family": "F1 accessible",
+      "param": "k=0",
+      "states": 3,
+      "loss": 0.9965846589048868,
+      "excess": 0.07729656009278352,
+      "recovered": 0.0
+    },
+    {
+      "family": "F1 accessible",
+      "param": "k=1",
+      "states": 27,
+      "loss": 0.993752634004839,
+      "excess": 0.07446453519273577,
+      "recovered": 0.03663843380155992
+    },
+    {
+      "family": "F1 accessible",
+      "param": "k=2",
+      "states": 243,
+      "loss": 0.9925460277709548,
+      "excess": 0.07325792895885153,
+      "recovered": 0.052248523467075245
+    },
+    {
+      "family": "F1 accessible",
+      "param": "k=3",
+      "states": 2187,
+      "loss": 0.9922811073446035,
+      "excess": 0.07299300853250024,
+      "recovered": 0.05567584838338834
+    },
+    {
+      "family": "F1 accessible",
+      "param": "k=4",
+      "states": 19683,
+      "loss": 0.9939272098315297,
+      "excess": 0.07463911101942644,
+      "recovered": 0.0343799138042778
+    },
+    {
+      "family": "F2 augmented",
+      "param": "k=0",
+      "states": 3,
+      "loss": 0.9965846589048868,
+      "excess": 0.07729656009278352,
+      "recovered": 0.0
+    },
+    {
+      "family": "F2 augmented",
+      "param": "k=1",
+      "states": 12,
+      "loss": 0.9567017235328724,
+      "excess": 0.037413624720769145,
+      "recovered": 0.5159729659915083
+    },
+    {
+      "family": "F2 augmented",
+      "param": "k=2",
+      "states": 48,
+      "loss": 0.9374085207433625,
+      "excess": 0.01812042193125918,
+      "recovered": 0.7655727252350144
+    },
+    {
+      "family": "F2 augmented",
+      "param": "k=3",
+      "states": 192,
+      "loss": 0.9280756561001143,
+      "excess": 0.00878755728801106,
+      "recovered": 0.8863137340463424
+    },
+    {
+      "family": "F2 augmented",
+      "param": "k=4",
+      "states": 768,
+      "loss": 0.9236358064044832,
+      "excess": 0.004347707592379901,
+      "recovered": 0.9437528968021204
+    },
+    {
+      "family": "F2 augmented",
+      "param": "k=5",
+      "states": 3072,
+      "loss": 0.921612807337199,
+      "excess": 0.002324708525095698,
+      "recovered": 0.9699248126655932
+    },
+    {
+      "family": "F2 augmented",
+      "param": "k=6",
+      "states": 12288,
+      "loss": 0.9215318431375952,
+      "excess": 0.002243744325491903,
+      "recovered": 0.9709722616013104
+    },
+    {
+      "family": "F2 augmented",
+      "param": "k=7",
+      "states": 49152,
+      "loss": 0.9242176714867023,
+      "excess": 0.0049295726745990365,
+      "recovered": 0.9362251998189598
+    },
+    {
+      "family": "F3 latent",
+      "param": "m=1",
+      "states": 18,
+      "loss": 0.9678865329777994,
+      "excess": 0.04859843416569609,
+      "recovered": 0.3712730022220835
+    },
+    {
+      "family": "F3 latent",
+      "param": "m=2",
+      "states": 108,
+      "loss": 0.9423464168643279,
+      "excess": 0.02305831805222458,
+      "recovered": 0.7016902430774882
+    },
+    {
+      "family": "F3 latent",
+      "param": "m=3",
+      "states": 648,
+      "loss": 0.9215683885813725,
+      "excess": 0.002280289769269195,
+      "recovered": 0.9704994663859293
+    }
+  ]
+}
