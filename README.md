@@ -1,14 +1,15 @@
 # The price of memorylessness
 
-A small simulation accompanying the paper *The Price of Memorylessness:
-Markov, Memory and Decision-Making* (Youssef El Ani).
+A small simulation accompanying the paper *Markov, Memory and
+Decision-Making: An Impossibility Result* (Youssef El Ani).
 
-The paper argues that no description of a human decision-maker's past can
-be at once **sufficient** (it predicts the next choice as well as the full
-history), **substantive** (bounded, so that it does not simply restate the
-history) and **accessible** (made of information available to the agent).
-Every Markovian model must give one of the three up. This simulation puts a
-number on what each choice costs.
+The paper proves that no model can be both Markovian and adequate for human
+decision-making when memory effects such as priming shape choice, and that
+augmenting the state with the history restores the Markov property only
+formally. This simulation measures what it costs to model a primed agent
+with three kinds of Markovian state: one made of what the agent can
+**access**, one **augmented** with the history, and one with a **latent**
+variable posited by the modeller.
 
 ## The agent
 

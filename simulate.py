@@ -17,8 +17,9 @@ F2  augmented states: today's context plus the last k prime events --
 F3  latent states: today's context plus the (discretised) activation of
     m of the K contents -- a bounded variable posited by the modeller.
 
-These are the three escape routes of the paper "The Price of
-Memorylessness": F1 stays accessible and is not sufficient; F2 becomes
+These are three ways of making a primed agent Markovian, discussed in the
+paper "Markov, Memory and Decision-Making: An Impossibility Result":
+F1 stays accessible and is not sufficient; F2 becomes
 sufficient only as its state space grows without bound; F3 is bounded and
 sufficient only if it tracks every content, and its state is not
 accessible to the agent.
