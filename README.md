@@ -81,8 +81,8 @@ What the numbers show:
 
 This is an illustration, not evidence about people. The agent is built so
 that masked primes matter, and the parameters (prime rate, decay, weights)
-are arbitrary. What the simulation does show is that the three costs in the
-paper are real and measurable even in a toy world: a model that stays
+are arbitrary. What the simulation does show is that the cost of making
+such an agent Markovian is real and measurable even in a toy world: a model that stays
 accessible remains inadequate, and a model that becomes adequate pays in
 either state-space size or in a variable the agent cannot access.
 
